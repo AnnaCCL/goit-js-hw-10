@@ -1,35 +1,60 @@
-/* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+.delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 
-p:last-child {
-  margin-bottom: 0;
+.delay input {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 40px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.delay input:hover {
+  border: 1px solid #000;
 }
 
-a {
-  color: currentColor;
-  text-decoration: none;
+fieldset {
+  display: flex;
+  width: 360px;
+  padding: 24 48px 12px 48px;
+  gap: 48px;
+  stroke-width: 1px #808080;
+  border-radius: 4px 4px 0 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-button {
-  cursor: pointer;
+fieldset label {
+  display: flex;
+  align-items: center;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+fieldset label input {
+  width: 32px;
+  height: 32px;
+}
+
+.form button {
+  border-radius: 8px;
+  background-color: #4E75FF;
+  border: none;
+  width: 360px;
+  padding: 8px 16px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.form button:hover {
+  background-color: #6C8CFF;
 }
